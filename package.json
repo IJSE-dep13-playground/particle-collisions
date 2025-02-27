@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel",
     "clean": "rm -rf dist",
-    "build": "npm run clean && parcel build --dist-dir docs"
+    "build": "npm run clean && parcel build --dist-dir docs --public-url /particle-collisions/"
   },
   "keywords": [],
   "author": "",
